@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 521" width="870" height="521">
+	<defs>
+		<image width="742" height="3" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuYAAAADCAMAAADoUTp5AAAAAXNSR0IB2cksfwAAADxQTFRFPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WPz1WJ7AamAAAABR0Uk5TJ7XY+v+878yaAH4rGp3A46TXtH1prziPAAAAPUlEQVR4nO3SpxEAQAwDQX/Ouf9evwUDAwMt1ggdkbHOCwkAYqSqjCkXqlJvAFo16mMu/n4DaMBP1p37ygcOtUPobQWpRwAAAABJRU5ErkJggg=="/>
+		<image width="430" height="3" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAADAgMAAAC2bgONAAAAAXNSR0IB2cksfwAAAAlQTFRFPz1WPj1VQD1WL06oJwAAAAN0Uk5T/7yk3SV2dgAAABlJREFUeJxjYEAFoqG0AwEMAwGYVtEeLAAAwwFg/YfX0zgAAAAASUVORK5CYII="/>
+		<image width="430" height="3" id="img3" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAa4AAAADAgMAAAC2bgONAAAAAXNSR0IB2cksfwAAAAlQTFRFPz1WPj1VQD1WL06oJwAAAAN0Uk5T/7yk3SV2dgAAABlJREFUeJxjYEAFoqG0AwEMAwGYVtEeLAAAwwFg/YfX0zgAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Layer" href="#img1" x="100" y="517" />
+	<use id="Layer 1" href="#img2" x="-328" y="517" />
+	<use id="Layer 2" href="#img3" x="832" y="517" />
+</svg>

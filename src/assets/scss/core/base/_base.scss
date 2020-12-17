@@ -9,7 +9,7 @@ html {
 }
 
 body {
-	background: color-bg(body); /* Fallback for when there is no custom background color defined. */
+	background: #fcfcfc; /* Fallback for when there is no custom background color defined. */
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
@@ -124,4 +124,17 @@ td {
 	tr {
 		border-bottom: 1px solid color-border(divider-inverse);
 	}
+}
+
+
+.tc {
+	text-align: center;
+}
+
+.m0 {
+	margin: 0;
+}
+
+.mb1 {
+	margin-bottom: 1rem;
 }

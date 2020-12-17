@@ -79,6 +79,14 @@
 	+ .header-nav-right {
 		flex-grow: 0;
 	}
+
+	li a{
+
+		
+		&:hover {
+			color: #211c76 !important;
+		}
+	}
 }
 
 .header-nav-toggle {

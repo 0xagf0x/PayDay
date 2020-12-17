@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6,
 	@include font-family(heading);
 	@include font-weight(heading);
 	clear: both;
-	color: color(heading);
+	//color: color(heading);
+	color: #211c76;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
@@ -115,10 +116,10 @@ h4, h5, h6,
 	margin-bottom: $spacing--hx-b;
 }
 
-p {
-	margin-top: 0;
-	margin-bottom: $spacing--shared-v;
-}
+// p {
+// 	margin-top: 0;
+// 	margin-bottom: $spacing--shared-v;
+// }
 
 dfn, cite, em, i {
 	font-style: italic;
