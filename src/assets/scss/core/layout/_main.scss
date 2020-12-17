@@ -28,6 +28,98 @@
     min-height: 100vh;
 }
 
+.flex {
+	display: flex;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.align {
+	align-items: center;
+}
+
 .site-content {
     flex: 1 0 auto;
+}
+
+.center {
+	text-align: center;
+}
+
+
+.register {
+	margin: 40px 0px;
+
+	
+}
+
+.text-small {
+		font-size: 12px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mb40 {
+	margin-bottom: 40px;
+}
+
+.mb120 {
+	margin-bottom: 120px;
+}
+
+.br {
+	border-radius: 10px;
+}
+
+.w48{
+	width: 48%;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.background-overlay {
+	position: absolute;
+	opacity: 0.3;
+	right: 50%;
+	top: 15%;
+
+	@media only screen and (max-width: 600px) {
+		display: none;
+	}
+}
+
+.PhoneInputInput {
+	background-color: #ECEDED;
+	border: none;
+	padding-right: 46px;
+	border-radius: 2px;
+	font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    padding: 11px 15px;
+	height: 48px;
+	color: #151719;
+}
+
+.register-btn {
+
+	&:hover {
+		color: #e0e0e0;
+		background-color: #211c76 !important;
+	}
 }

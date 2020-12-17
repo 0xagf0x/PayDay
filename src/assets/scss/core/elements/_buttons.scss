@@ -18,6 +18,7 @@
     letter-spacing: inherit;
     white-space: nowrap;
 	transition: background .15s ease;
+	box-shadow: 6px 12px 20px rgba(0, 0, 0, 0.2);
 
     &:active {
         outline: 0;
@@ -67,6 +68,17 @@
 	}
 }
 
+
+.hero-button {
+	color: grey !important;
+	background-color: #6ef0c5; 
+
+	&:hover {
+		color: #211c76 !important;
+		background-color: #6ef0c5 !important;
+	}
+}
+
 .button-sm {
     padding: (($button-form-sm--height - get-line-height(button) - ($button-form--border-width * 2)) / 2) ($button-sm--padding-h - $button-form--border-width);
 	height: $button-form-sm--height;
@@ -105,6 +117,16 @@
 		&::after {
 			border-color: color(button-primary);
 		}
+	}
+}
+
+.button-register {
+	background-color: #e0e0e0;
+	color: #211c76;
+
+	&:hover {
+		color: #e0e0e0;
+		background-color: #211c76;
 	}
 }
 
